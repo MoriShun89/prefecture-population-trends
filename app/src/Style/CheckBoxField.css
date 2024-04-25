@@ -1,0 +1,7 @@
+.checkbox-field {
+  justify-content: space-around;  /*横並びのチェックボックスの余白を均等に設定*/
+}
+
+.checkbox {
+  display: inline-block;    /*都道府県のチェックボックスを横並びに羅列*/
+}

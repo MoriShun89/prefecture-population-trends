@@ -1,0 +1,15 @@
+header {
+  position: sticky; /*ヘッダーを画面の一番上（top: 0;）に固定*/
+  top: 0;
+  display: table;
+  width: 100%;
+  height: 10vh;
+  background-color: #008080;
+  color: white;
+}
+
+.title {
+  display: table-cell;  /*縦中央にタイトルを配置するためにテーブル要素として扱う*/
+  vertical-align: middle; /*display: table-cell;を指定している自身を縦中央にタイトルを配置*/
+  text-align: center;   /*タイトルを水平方向中央に配置*/
+}
